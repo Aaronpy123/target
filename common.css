@@ -1,0 +1,192 @@
+/* 清除浮动 */
+.clearfix::after {
+    content: '';
+    display: inline-block;
+    height: 0;
+    clear: both;
+}
+
+/* 左浮动 */
+.fl {
+    float: left;
+}
+
+/* 右浮动 */
+.fr {
+    float: right;
+}
+
+/* 版心 */
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+ /* 1. 顶部 */
+ .topbar{
+    height: 28px;
+    background-color:#101010;
+}
+.topbar .container{
+    height: 28px;
+    background-color: #101010;
+}
+.topbar .container p {
+    height: 28px;
+    line-height: 28px;
+    color: #fff;
+}
+.topbar .container p:first-child{
+    text-indent: 10px;
+
+}
+.topbar .container p:first-child a{
+    color: #fff;
+    text-decoration: none;
+    margin-left: 190px;
+}
+.topbar .container p:nth-child(2){
+    margin-right: 10px;
+}
+.topbar .container p:nth-child(2) a:not(.login){
+    color:#ff6700;
+}
+.topbar .container p:nth-child(2) .login{
+    color: #fff;
+}
+
+/* 2. 导航 */
+/* 搜索购物车订单大容器 */
+.nav{
+    height: 80px;
+    background-color: #fff;
+}
+/* 搜索框 */
+.nav .search-shopcart-order{
+    margin-top: 5px;
+    height: 35px;
+    background-color:#fff;
+}
+
+.nav .search-shopcart-order .search-input{
+        width: 440px;
+        height: 35px;
+        background-color:#ff6700;
+        margin-right: 38px;
+        background-image: url('../images/bgicon.png');
+}
+.nav .search-shopcart-order .search-input .search{
+    width: 403px;
+    height: 31px;
+    border: 2px solid #ff6700;
+    text-indent: 10px;
+    color:#333;
+    outline: none;
+}
+.nav .search-shopcart-order .search-input .search span{
+    display: inline-block;
+    width: 50px;
+    height: 35px;
+    right: 0;
+    top: 0;
+}
+.nav .search-shopcart-order .shopcart-order{
+    width: 200px;
+    height: 35px;
+    font-size: 0;
+}
+.nav .search-shopcart-order .shopcart-order button{
+    width: 100px;
+    height: 35px;
+    background-color: #ebebeb;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    color: #333;
+}
+.nav .search-shopcart-order .shopcart-order button:nth-child(1){
+    background-color: #ff6700;
+    background-image: url('../images/bgicon.png');
+    background-position: -6px -44px;
+}
+/* 分类导航 */
+.nav .category-meau{
+    margin-top: 15px;
+    height: 30px;
+}
+.nav .category-meau .left-logo{
+    width: 200px;
+    height: 30px;
+    background-color: green;
+    position: relative;
+}
+.nav .category-meau .left-logo img{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+}
+.nav .category-meau ul{
+    width:1000px;
+    height:32px;
+}
+.nav .category-meau ul li{
+    float: left;
+    height: 32px;
+    line-height: 32px;
+    width: 80px;
+    color: #333;
+    text-align: center;
+    font-weight: 700;
+}
+.footer{
+    width: 1200px;
+    height: 408px;
+    background-color:#ffffff;
+    margin-top: 0;
+} 
+.footer .footer-top{
+  width: 1200px;
+  height: 93px;
+  background-color:#f2f2f2; 
+}
+.footer .footer-top .imge{
+  width: 896px;
+  height: 93px;
+  margin-left: 150px;
+  
+}
+.footer .footer-top .imge ul li{
+  float: left;
+  width: 130px;
+  height: 93px;
+  margin-left: 94px;
+  margin-top: 22px;
+}
+.footer .footer-center .footer-text img{
+  float: right;
+}
+.footer .footer-center .footer-text ul{
+  width: 776px;
+  height: 306px;
+  margin: 0px auto;
+  margin-left: 300px;
+}
+.footer .footer-center .footer-text ul li dl{
+  width: 112px;
+  height: 140px;
+  float: left;
+  margin-top: 50px;
+}
+.footer .footer-center .footer-text ul li dl dt:first-child{
+  font-size: 18px;
+  font-weight: 500;
+}
+.footer .footer-center .footer-text ul li dl dd{
+  text-indent: 12px;
+}
+.footer .footer-center .footer-text p{
+  text-align: center;
+  margin-top: -80px;
+}
+.footer .footer-center .footer-text img{
+  margin-top: 60px;
+  margin-right: 100px;
+}

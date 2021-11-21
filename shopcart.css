@@ -1,0 +1,66 @@
+/* 购物车 */
+.shopcart{
+    width: 1200px;
+    height: 630px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.shopcart h3{
+    font-size: 18px;
+    color: #ff6700;
+    text-indent: 10px;
+    font-weight: 500;
+}
+.shopcart table{
+    width: 1200px;
+    height: 500px;
+    text-align: center;
+}
+.shopcart table button{
+    width: 25px;
+    height: 20px;
+}
+.shopcart table input{
+    width: 70px;
+}
+.shopcart table thead tr th{
+    height: 60px;
+    background-color: #f1f1f1;
+    color: #cccccc;
+    font-size: 15px;
+}
+.shopcart table tbody tr td span{
+    font-size: 15px;
+    color: #cccccc;
+}
+/* 小计样式 */
+.shopcart table tbody tr .subprice{
+    width: 100px;
+    text-align: center;
+}
+.shopcart table tbody tr td img~span{
+    color: #cccccc;
+}
+.shopcart .totalPrice{
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    background-color: #f1f1f1;
+    margin-top: 20px;
+}
+.shopcart .totalPrice input{
+    margin-left: 18px;
+}
+.shopcart .totalPrice span{
+    margin-right:40px;
+}
+.shopcart .totalPrice span:nth-of-type(2){
+    display: inline;
+}
+.shopcart .totalPrice span:first-of-type{
+    margin-left: 20px;
+}
+.shopcart .totalPrice button{
+    background-color: #ff6700;
+    color: aliceblue;
+}
